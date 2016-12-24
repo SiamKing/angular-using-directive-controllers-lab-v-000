@@ -1,5 +1,7 @@
 function ContactController() {
-	this.contacts = [{
+	var ctrl = this;
+	
+	ctrl.contacts = [{
 		name: 'Bill Gates',
 		email: 'bill@microsoft.com',
 		phone: '01234567890',
